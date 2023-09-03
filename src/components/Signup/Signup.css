@@ -83,9 +83,10 @@ input {
 
 .create_new_account {
     color: #FB9300;
-
 }
 
-Link {
-    text-underline-offset: 5px;
+.text_error {
+    color: red;
+    font-size: 14px;
+
 }
