@@ -27,7 +27,7 @@ const Signup = () => {
         <>
             <div className='login_main_body'>
                 <div className='login_body_center'>
-                    <div className='login_title'>Login</div>
+                    <div className='login_title'>Sign Up</div>
                     <form className='form_container' onSubmit={handleSignUp}>
                         <div className='form_section'>
                             <label htmlFor="email">Email:</label>
@@ -45,7 +45,7 @@ const Signup = () => {
                         </div>
 
                         <div className='form_section'>
-                            <button className='login_button'>Login</button>
+                            <button className='login_button'>Sign Up</button>
                         </div>
 
                         <div className='form_section'>
