@@ -86,6 +86,9 @@ input {
 
 }
 
-Link {
-    text-underline-offset: 5px;
+
+.text_error {
+    color: red;
+    font-size: 14px;
+
 }

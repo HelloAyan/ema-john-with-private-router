@@ -30,6 +30,8 @@ const Signup = () => {
                 const loggedUser = result.user;
                 console.log(loggedUser);
                 alert('User created successfully');
+                form.reset();
+                setError(' Hurrah! Account has been created successfully');
             })
             .catch((error) => {
                 const errorCode = error.code;
