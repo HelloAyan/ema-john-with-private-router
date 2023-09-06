@@ -25,7 +25,7 @@ const Header = () => {
                 <Link to="/inventory">Inventory</Link>
                 <Link to="/login">Login</Link>
                 <Link to="/signup">Signup</Link>
-                {user && <span>Welcome, {user.displayName} <button onClick={handleLogout}>Log Out</button></span>}
+                {user && <span>Welcome, {user.email} <button onClick={handleLogout}>Log Out</button></span>}
             </div>
         </nav>
     );
